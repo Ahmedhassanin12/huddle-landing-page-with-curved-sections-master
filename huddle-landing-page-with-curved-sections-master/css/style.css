@@ -1,0 +1,35 @@
+:root {
+    --pink-color : hsl(322, 100%, 66%);
+    --light-pink : hsl(321, 100%, 78%);
+    --light-red : hsl(0, 100%, 63%);
+    --cyen-color: hsl(192, 100%, 9%);
+    --pale-blue : hsl(207, 100%, 98%);
+}
+body {
+    font-family: 'Space Mono', monospace;
+}
+section {
+    padding: 60px 0;
+}
+h1, h3 {
+    color: var(--cyen-color);
+}
+.try-btn {
+    color: var(--light-pink);
+    border: 1px solid var(--light-pink);
+}
+.get-btn {
+    background-color: var(--pink-color);
+}
+.btn:hover {
+    background-color: var(--light-pink);
+}
+#grow {
+    background-color: var(--pale-blue);
+}
+footer {
+    background-color: var(--cyen-color);
+}
+footer .icons {
+    color: white;
+}
